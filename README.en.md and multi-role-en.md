@@ -1,30 +1,45 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+README.en.md (English)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 OneCopyThinker (English)
 
-A concise multi-role thinking prompt for ChatGPT, Claude, and other LLMs.
-Paste it once and get structured answers from four distinct perspectives.
+A one-copy multi-role prompt for ChatGPT, Claude, etc.
+By pasting "prompts/multi-role-en.md" into the System message,
+the AI will respond in four roles (L/C/H/I) across phases (0 to 3).
 
-1. FEATURES
-- Minimal: ~500 words total
-- Four roles: (L)ogical, (C)reative, (H)uman, (I)ntegrator
-- Optional elements: Fact-check, Creative boost, Reality check, Meta-reflection
-- Extensible: Add expert roles as needed
+Directory Structure
 
-2. HOW TO USE
-1) Open prompts/en.md and copy all content
-2) Paste it into your LLM's system message
-3) Ask any question. The AI responds in 4 phases:
-   - Phase 0: Problem Confirmation
-   - Phase 1: Multiple Perspectives
-   - Phase 2: Cross-Examination
-   - Phase 3: Integrated Conclusion
-4) Expect a concise final answer within 1–2 screens
+OneCopyThinker/
+README.md // Japanese documentation
+README.en.md // This English documentation
+LICENSE
+prompts/
+multi-role-ja.md // Japanese prompt
+multi-role-en.md // English prompt (System text)
 
-3. LICENSE
-MIT License — see the LICENSE file
+Usage (English prompt)
 
-4. LINKS
-- Japanese version: README.md
-- Repository: https://github.com/Simmon-Gomi/OneCopyThinker
+Open prompts/multi-role-en.md
 
-## Japanese Version
-See [README.md](README.md)
+Copy all content and paste it into your LLM's System message
+
+Ask a question: the AI proceeds with (L)(C)(H)(I) in phases (0–3)
+
+Insert optional lines like (A) Fact Check or S(doctor): ... if needed
+
+The final answer is aimed to fit 1–2 screenfuls
+
+Sample Output
+Phase 1:
+L: Data/facts...
+C: Creative angle...
+H: Ethical/emotional aspect...
+I: Summarize key points
+
+License
+This project is under the MIT License (see LICENSE).
+
+Japanese Version
+For Japanese instructions, see README.md
+(Japanese prompt at prompts/multi-role-ja.md)
