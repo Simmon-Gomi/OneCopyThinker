@@ -25,3 +25,6 @@ MIT License — see the LICENSE file
 4. LINKS
 - Japanese version: README.md
 - Repository: https://github.com/Simmon-Gomi/OneCopyThinker
+
+## Japanese Version
+See [README.md](README.md)
