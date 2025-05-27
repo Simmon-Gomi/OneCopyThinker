@@ -1,4 +1,5 @@
 README.md：日本語版
+
 OneCopyThinker (日本語版)
 
 ワンコピペで導入できる多角思考プロンプトです。
