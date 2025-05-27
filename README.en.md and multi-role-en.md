@@ -1,6 +1,4 @@
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 README.en.md (English)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 OneCopyThinker (English)
 
