@@ -7,10 +7,15 @@ ChatGPTやClaudeなどで、下記の「[prompts/multi-role-ja.md](prompts/multi
 
 OneCopyThinker/
 ├── [README.md](README.md)            // 日本語版の説明
+
 ├── [README.en.md](README.en.md)      // 英語版の説明
+
 ├── [LICENSE](LICENSE)                // ライセンスファイル
+
 └── prompts/
+
 ├── [multi-role-ja.md](prompts/multi-role-ja.md)  // 日本語プロンプト本体
+
 └── [multi-role-en.md](prompts/multi-role-en.md)  // 英語プロンプト本体
 
 > **Note**: 上記リンクはGitHub上でクリックすると該当ファイルへ飛びます。
